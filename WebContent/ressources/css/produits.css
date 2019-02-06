@@ -1,0 +1,49 @@
+
+h1 {
+    color: navy;
+    font-size: 50px;
+    text-align: center;
+    text-decoration: underline;
+    border: yellowgreen 2px solid;
+}
+
+#conteneur {
+    background: antiquewhite;
+    width: 720px;
+    margin: auto;
+}
+
+img {
+    height: 220px;
+    width: 220px;
+}
+
+.bloc_produit {
+    width: 220px;
+    display: inline-block;
+    border: 2px solid darkgrey;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.description {
+    font-size: 30px;
+    text-align: center;
+    color: red;
+    border: 1px solid cornsilk;
+    background-color: aliceblue;
+}
+
+.prix {
+    position: absolute;
+    width: 220px;
+}
+
+label {
+    float: right;
+    font-size: x-large;
+    /* permet de superposer. Ts les elts commencent au même endroit*/
+    font-weight: bold;
+    color: #e400e4;
+}
